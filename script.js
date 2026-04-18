@@ -60,7 +60,7 @@
     form.addEventListener('submit', (e) => {
       e.preventDefault();
 
-      const from  = form.from.value.trim()        || 'Chennai';
+      const from  = form.from.value.trim()        || 'Trichy';
       const to    = form.to.value.trim()           || '(destination not specified)';
       const date  = form.departure.value           || '';
       const pax   = form.passengers.value          || '1';
@@ -83,7 +83,7 @@
 
   /* ── Scroll-triggered fade-up animations */
   const animEls = document.querySelectorAll(
-    '.service-card, .why-card, .how-step, .deal-card, .testi-card'
+    '.sv-card, .dest-card, .why-card, .how-step, .deal-card, .testi-card, .team-card, .login-card, .policy-card'
   );
 
   animEls.forEach((el, i) => {
